@@ -1,0 +1,5 @@
+INFO     log:conftest.py:29 ******************************
+INFO     log:conftest.py:30 前置步骤开始 ==>> 清理数据
+INFO     log:conftest.py:97 修改用户操作：手工修改用户的手机号，以便用例重复执行
+INFO     log:conftest.py:98 执行SQL：UPDATE user SET telephone = '13500010004' WHERE id = 4
+INFO     log:test_04_update_user.py:37 *************** 开始执行用例 ***************

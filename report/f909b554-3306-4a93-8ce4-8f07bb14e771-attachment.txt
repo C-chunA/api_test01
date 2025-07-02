@@ -1,0 +1,30 @@
+INFO     log:conftest.py:29 ******************************
+INFO     log:conftest.py:30 前置步骤开始 ==>> 清理数据
+INFO     log:conftest.py:82 注册用户操作：清理用户--准备注册新用户
+INFO     log:conftest.py:83 执行前置SQL：DELETE FROM user WHERE username = '测试test'
+INFO     log:test_02_register.py:30 *************** 开始执行用例 ***************
+INFO     log:rest_client.py:51 接口请求地址 ==>> http://112.126.74.187:9999/register
+INFO     log:rest_client.py:52 接口请求方式 ==>> POST
+INFO     log:rest_client.py:54 接口请求头 ==>> {
+    "Content-Type": "application/json"
+}
+INFO     log:rest_client.py:55 接口请求 params 参数 ==>> null
+INFO     log:rest_client.py:56 接口请求体 data 参数 ==>> null
+INFO     log:rest_client.py:57 接口请求体 json 参数 ==>> {
+    "username": "wintest4",
+    "password": "123456",
+    "sex": "1",
+    "telephone": "13599999999",
+    "address": "深圳市宝安区"
+}
+INFO     log:rest_client.py:58 接口上传附件 files 参数 ==>> None
+INFO     log:rest_client.py:59 接口 cookies 参数 ==>> null
+INFO     log:user.py:71 注册用户 ==>> 返回结果 ==>> {
+  "code": 0, 
+  "msg": "恭喜，注册成功！"
+}
+
+INFO     log:test_02_register.py:10 步骤1 ==>> 注册用户 ==>> wintest4, 123456, 13599999999, 1, 深圳市宝安区
+INFO     log:conftest.py:35 后置步骤开始 ==>> 清理数据
+INFO     log:conftest.py:87 注册用户操作：删除注册的用户
+INFO     log:conftest.py:88 执行后置SQL：DELETE FROM user WHERE username = '测试test'

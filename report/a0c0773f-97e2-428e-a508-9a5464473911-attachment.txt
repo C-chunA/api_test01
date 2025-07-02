@@ -1,0 +1,19 @@
+[2025-07-02 11:18:12,459][rest_client.py 51][INFO]: 接口请求地址 ==>> http://112.126.74.187:9999/login
+[2025-07-02 11:18:12,460][rest_client.py 52][INFO]: 接口请求方式 ==>> POST
+[2025-07-02 11:18:12,460][rest_client.py 54][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2025-07-02 11:18:12,460][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2025-07-02 11:18:12,460][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> {
+    "username": "wintest",
+    "password": "123456"
+}
+[2025-07-02 11:18:12,460][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> null
+[2025-07-02 11:18:12,460][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2025-07-02 11:18:12,460][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null
+[2025-07-02 11:18:12,477][conftest.py 40][INFO]: 前置步骤 ==>> 管理员 wintest 登录，返回信息 为：123456
+[2025-07-02 11:18:12,487][conftest.py 29][INFO]: ******************************
+[2025-07-02 11:18:12,487][conftest.py 30][INFO]: 前置步骤开始 ==>> 清理数据
+[2025-07-02 11:18:12,487][conftest.py 97][INFO]: 修改用户操作：手工修改用户的手机号，以便用例重复执行
+[2025-07-02 11:18:12,488][conftest.py 98][INFO]: 执行SQL：UPDATE user SET telephone = '13500010004' WHERE id = 4
+[2025-07-02 11:18:12,490][test_04_update_user.py 37][INFO]: *************** 开始执行用例 ***************

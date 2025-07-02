@@ -1,0 +1,12 @@
+INFO     log:test_01_get_user_info.py:32 *************** 开始执行用例 ***************
+INFO     log:test_01_get_user_info.py:10 步骤1 ==>> 获取所有用户信息
+INFO     log:rest_client.py:51 接口请求地址 ==>> http://112.126.74.187:9999/users
+INFO     log:rest_client.py:52 接口请求方式 ==>> GET
+INFO     log:rest_client.py:54 接口请求头 ==>> null
+INFO     log:rest_client.py:55 接口请求 params 参数 ==>> null
+INFO     log:rest_client.py:56 接口请求体 data 参数 ==>> null
+INFO     log:rest_client.py:57 接口请求体 json 参数 ==>> null
+INFO     log:rest_client.py:58 接口上传附件 files 参数 ==>> None
+INFO     log:rest_client.py:59 接口 cookies 参数 ==>> null
+INFO     log:test_01_get_user_info.py:38 code ==>> 期望结果：0， 实际结果：0
+INFO     log:test_01_get_user_info.py:41 *************** 结束执行用例 ***************

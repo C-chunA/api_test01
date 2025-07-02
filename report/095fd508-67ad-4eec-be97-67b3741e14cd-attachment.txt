@@ -1,0 +1,8 @@
+[2025-07-02 11:18:12,603][conftest.py 29][INFO]: ******************************
+[2025-07-02 11:18:12,603][conftest.py 30][INFO]: 前置步骤开始 ==>> 清理数据
+[2025-07-02 11:18:12,603][conftest.py 65][INFO]: 删除用户操作：插入新用户--准备用于删除用户
+[2025-07-02 11:18:12,604][conftest.py 66][INFO]: 执行前置SQL：INSERT INTO user(username, password, role, sex, telephone, address) VALUES('测试test', '123456', '1', '1', '13488888888', '北京市海淀区')
+[2025-07-02 11:18:12,605][test_05_delete_user.py 34][INFO]: *************** 开始执行用例 ***************
+[2025-07-02 11:18:12,623][conftest.py 35][INFO]: 后置步骤开始 ==>> 清理数据
+[2025-07-02 11:18:12,623][conftest.py 72][INFO]: 删除用户操作：手工清理处理失败的数据
+[2025-07-02 11:18:12,624][conftest.py 73][INFO]: 执行后置SQL：DELETE FROM user WHERE username = '测试test'
