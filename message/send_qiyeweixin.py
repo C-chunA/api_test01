@@ -7,7 +7,7 @@ jenkins_url = "http://112.126.74.187:8080/"
 # ✅ 添加 timeout 避免 requests 错误
 server = Jenkins(jenkins_url, username='root', password='123456', timeout=10)
 
-job_name = "job/ApiTest"
+job_name = "job/02ces"
 job_url = server.get_info(job_name)['url']
 job_last_number = server.get_info(job_name)['lastBuild']['number']
 report_url = job_url + str(job_last_number) + '/allure'
