@@ -15,7 +15,7 @@ report_url = job_url + str(job_last_number) + '/allure'
 
 def push_message():
     content = {}
-    file_path = '/var/jenkins_home/workspace/02ces/allure-report/export/prometheusData.txt'
+    file_path = '/var/lib/docker/volumes/jenkins_data/_data/workspace/02ces/allure-report/export/prometheusData.txt'
     with open(file_path) as f:
         for line in f.readlines():
             launch_name = line.strip().split(' ')[0]
